@@ -1,0 +1,114 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 79px;
+}
+
+h2 {
+	border-bottom: 1px solid #000;
+}
+
+#footer {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	background-color: magenta;
+	font-size: 18px;
+	color: black;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.box-button {
+	display: inline-block;
+}
+
+.table-nav, .tombol-nav {
+	display: block;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+.tombol-nav {
+	margin-top: 10px;
+}
+
+.table-nav {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+.jumlahdata, .paginate {
+	width: 50%;
+	height: 50px;
+	display: block;
+}
+
+.jumlahdata {
+	float: left;
+	padding-top: 15px;
+}
+
+.paginate {
+	float: right;
+	text-align: right;
+}
+
+.paginate ul.pager, .paginate ul.pagination{
+	text-align: right;
+}
+
+ul.pagination, ul.pager {
+	margin-top: 8px;
+}
+
+.table-bottom{
+	height: 40px;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+/*table th {
+  padding: 15px 35px;
+  border-left:3px solid #000000;
+  border-right:3px solid #000000;
+  border-bottom: 3px solid #000000;
+  border-top: 3px solid #000000;
+  border-color: black;
+  background-color: aqua;
+  text-align: center;
+}
+
+table tr {
+  padding-left: 20px;
+}
+ 
+table td:first-child {
+  padding-left: 20px;
+  border-left: 0;
+}
+
+table td {
+  padding: 15px 35px;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #e0e0e0;
+  border-left: 3px solid #e0e0e0;
+  border-color: black;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}*/
+
+.bottom-nav{
+	margin-top: 10px;
+}
+
+.container{
+	margin-bottom: 50px;
+}
